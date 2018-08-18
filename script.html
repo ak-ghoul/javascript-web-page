@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>prompt</title>
+<meta charset="UTF-8">
+<link rel="Stylesheet" href="C:\Users\Akshat\Desktop\codes\css\hover.css">
+<link rel="icon" type="image/png" href="C:\Users\Akshat\Desktop\codes\images\DBZ_Icon_Type1.png">
+<script src="C:\Users\Akshat\Desktop\codes\javascript\attachment.js"></script>
+</head>
+<body onload="ak()" onresize="au('RESIZE')">
+<p class="fadeInDown animated" onmouseover="au('HOVER')">The date is: <span id="tehe"></span></p>
+<p id="midoriya"></p><p></p>
+<h1 id="test" onclick="au('CLICK')">Java Script</h1>
+<div class="entire">
+<div id="some" class=" fadeInLeft animated">
+<form action="C:\Users\Akshat\Desktop\codes\html\project.html" method="get">
+<fieldset>
+<legend>Details</legend>
+<label>Name:<input type="text" name="name" value="Akshat" id="ino"></label><br>
+<label>Nickname?<input id="nickname" type="checkbox" name="nickname" value="yes" onchange="disp()"></label><br>
+<div id="all">
+<label for="yukki">Nickname:</label><input id="inp" type="text" placeholder="Akshat" name="yukki" ><br></div>
+<label><input type="submit" name="Submit" onclick="return submit()"></label><br>
+</fieldset>
+</form>
+<script>
+var a;
+a=prompt("What is your name?");
+document.write("Hello "+a);
+console.log(a);
+alert(a);
+document.write("<h1>"+a+"</h1>");
+document.write(Date()+"<br>");
+document.write(document.title+"<br>");
+document.write(document.URI);
+document.getElementById('test').innerHTML="Hello World!";
+var ar=document.getElementsByTagName('p');
+document.write("<br>"+ar+"<br>"+ar.length);
+</script>
+<noscript>
+Your browser doesn't support JavaScript.</noscript>
+</div>
+<div id="storm" class="fadeInRight animated">
+Hover over images to show their text here.
+</div>
+</div>
+<section class="pulse animated">
+<img src="D:\Anime pics\17-19-47-tokyo_ghoul_kaneki_ken_man_reflection_100594_1366x768.jpg" alt="Kaneki from Tokyo Ghoul." onmouseover="yo(this)" onmouseleave="document.getElementById('storm').innerHTML='Hover over images to display text here.'">
+<img src="D:\background\837215.png" alt="Izuku Midoriya from Boku No Hero Academia" onmouseover="yo(this)" onmouseleave="document.getElementById('storm').innerHTML='Hover over images to display text here.'">
+<img src="D:\background\code_geass_lelouch_lamperouge_boy_brunette_different_eyes_36930_1366x768.jpg" alt="Lelounch Lamperouge from Code Geass" onmouseover="yo(this)" onmouseleave="document.getElementById('storm').innerHTML='Hover over images to display text here.'">
+</section>
+</body>
+</html>
